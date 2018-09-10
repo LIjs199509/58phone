@@ -1,0 +1,230 @@
+/** {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 16rem;
+  margin: 0 auto; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  font-size: 0.26rem;
+  width: 100%;
+  height: 0.9rem;
+  line-height: 1.1093333333rem;
+  background-color: #ff552e;
+  color: #fff;
+  text-align: center; }
+  header .topLeft {
+    width: 4rem; }
+  header .topRight {
+    width: 4rem; }
+    header .topRight a {
+      text-decoration: none;
+      color: #fff; }
+  header .topSeatch {
+    width: 8rem;
+    text-align: center; }
+    header .topSeatch input {
+      color: #FFDAD3;
+      background: #FF7657;
+      position: relative;
+      top: -0.064rem;
+      border: none;
+      width: 100%;
+      border-radius: 0.1066666667rem;
+      font-size: 0.2773333333rem;
+      line-height: 0.8106666667rem;
+      vertical-align: middle; }
+    header .topSeatch input::-webkit-input-placeholder {
+      color: #FFDAD3;
+      text-align: center; }
+
+*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.top{
+  height: 52px;
+  background: #FF552E;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.topLeft{
+  flex: 1;
+  text-align: center;
+  line-height: 52px;
+}
+
+input{
+  margin:  5px 6px;
+  flex: 2;
+  background: #FF7759;
+  border:none;
+}
+input::-webkit-input-placeholder {
+        text-align: center;
+         color: #FFDAD3;
+       }
+
+.topRight{
+  flex: 1;
+  text-align: center;
+  line-height: 52px;
+}
+
+.uldiv{
+  margin-top: 52px;
+  overflow: hidden;
+  padding: 0.12rem 0;
+}
+
+.uldiv ul{
+  list-style: none;
+}
+
+.uldiv li{
+  float: left;
+  width: 20%;
+  text-align: center;
+  height: 75px;
+}
+.toutiao{
+  height: 61px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top: 1px solid #F3F3F3;
+}
+.toutiao img{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.TD{
+  padding: 0 20px;
+  display: flex;
+}
+
+.tdtext{
+  height: 32px;
+  margin-top: 14px;
+  flex: 1;
+  overflow: hidden;
+}
+.tdtext ul{
+  transition: top 1s linear;
+  position: relative;
+  top:0;
+  height: 30px;
+}
+.tdtext li{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  height: 17px;
+}
+.huandengpian{
+  width: 6.8rem;
+  height: 1.2rem;
+  overflow: hidden;
+  background: #999;
+ margin:  10px auto;
+ background: #F6F6F6;
+}
+.zhaopin{
+  width: 100%;
+  overflow: hidden;
+}
+.zhaopin1{
+  width: 100%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+}
+.allzhaopin{
+  display: flex;
+  justify-content: space-between;
+  padding:  0 10px;
+  box-sizing: border-box;
+  border:1px solid #F3F3F3;
+}
+.zhaopindown{
+  width: 100%;
+  /*overflow: hidden;*/
+}
+.zhaopindown1{
+  overflow: hidden;
+}
+.zhaopindown1 a{
+  float: left;
+  display: block;
+  width: 25%;
+  height: 0.82rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.wuxian{
+  width: 100%;
+  height: 0.93rem;
+  background: #FAFAFA;
+}
+.wuxian a{
+  width: 25%;
+  height: 0.93rem;
+  text-align: center;
+  float: left;
+  display: block;
+}
+.autoimg{
+  overflow: hidden;
+  display: flex;
+}
+.autoimg b{
+  display: block;
+}
+.autoimg a{
+  flex: 1;
+  height: 1.73rem;
+  text-align: left;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  border:1px solid #F3F3F3;
+}
+.autoimg img{
+  width: 1.17rem;
+  height: 0.93rem;
+  position: relative;
+  left: 1.1rem;
+  top: -0.2rem;
+}
+.jiantou::after{
+  display:inline-block;
+  width:0;
+  height:0;
+  border-top: 3px solid transparent;
+  border-left: 5px solid red;
+  border-bottom: 3px solid transparent;
+  position: absolute;
+    top: .484375rem;
+    right: 0;
+}
+
+}
